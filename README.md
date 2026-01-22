@@ -17,6 +17,9 @@
 
 #Folder layout
 
+## Repository Structure
+
+```text
 aws-terraform-eks-istio/
 ├── README.md
 ├── .gitignore
@@ -36,10 +39,10 @@ aws-terraform-eks-istio/
     │   ├── main.tf
     │   ├── variables.tf
     │   └── outputs.tf
-    └── istio/
-    |   ├── main.tf
-    |   ├── variables.tf
-    |   └── outputs.tf
+    ├── istio/
+    │   ├── main.tf
+    │   ├── variables.tf
+    │   └── outputs.tf
     ├── iam-alb/
     │   ├── main.tf
     │   ├── variables.tf
