@@ -1,0 +1,5 @@
+aws_region  = "us-east-1"
+project     = "eks-istio-demo"
+environment = "dev"
+
+install_istio = true
